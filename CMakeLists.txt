@@ -4,7 +4,7 @@ project(intergalactic_scummbag C)
 set(CMAKE_C_STANDARD 11)
 
 add_executable(intergalactic_scummbag main.c
-        cJSON.c
+        libs/cJSON.c
         router.c
         router.h
         request.c
